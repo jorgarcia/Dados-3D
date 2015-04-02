@@ -1,0 +1,184 @@
+h1 
+{ 
+  background-color: red; 
+  color: blue ; 
+  width: 150px;
+}  
+
+h2 
+{ 
+  background-color: red; 
+  color: blue ; 
+  width: 350px;
+}   
+p
+{
+	height: 10px;
+	color:red; 
+	text-align:center; 
+	position:relative; 
+	top:-1.3em;
+}
+
+
+.contenedor 
+{
+ width: 200px;
+ height: 200px;
+ margin: 0 auto 40px;
+ border: 1px solid #CCC;
+ position: relative;
+ perspective: 1000px;
+}
+
+#cubo 
+{
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ transform-style: preserve-3d;
+}
+
+#cubo figure 
+{
+ display: block;
+ position: absolute;
+ width: 196px;
+ height: 196px;
+ border: 2px solid black;
+ line-height: 196px;
+ font-size: 120px;
+ font-weight: bold;
+ color: white;
+ text-align
+}
+
+#cubo img 
+{
+ display: block;
+ position: absolute;
+ width: 196px;
+ height: 196px;
+ border: 2px solid black;
+ line-height: 196px;
+ font-size: 120px;
+ font-weight: bold;
+ color: white;
+ text-align
+}
+
+figure 
+{
+ margin: 0;
+}
+
+.contenedor2 
+{
+ width: 200px;
+ height: 200px;
+ margin: 0 auto 40px;
+ border: 1px solid #CCC;
+ position: relative;
+ perspective: 1000px;
+}
+
+#cubo2 
+{
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ transform-style: preserve-3d;
+}
+
+#cubo2 figure 
+{
+ display: block;
+ position: absolute;
+ width: 196px;
+ height: 196px;
+ border: 2px solid black;
+ line-height: 196px;
+ font-size: 120px;
+ font-weight: bold;
+ color: white;
+ text-align
+}
+
+#cubo2 img 
+{
+ display: block;
+ position: absolute;
+ width: 196px;
+ height: 196px;
+ border: 2px solid black;
+ line-height: 196px;
+ font-size: 120px;
+ font-weight: bold;
+ color: white;
+ text-align
+}
+
+figure 
+{
+ margin: 0;
+}
+ 
+#cubo .frente { transform: rotateY( 0deg ) translateZ( 100px ); }
+#cubo .respaldo { transform: rotateX( 180deg ) translateZ( 100px ); }
+#cubo .derecha { transform: rotateY( 90deg ) translateZ( 100px ); }
+#cubo .izquierda { transform: rotateY( -90deg ) translateZ( 100px ); }
+#cubo .arriba { transform: rotateX( 90deg ) translateZ( 100px ); }
+#cubo .debajo { transform: rotateX( -90deg ) translateZ( 100px ); }
+
+#cubo { transform: translateZ( -100px ); }
+
+#cubo.show-frente { transform: translateZ( -100px ) rotateY( 0deg ); }
+#cubo.show-respaldo { transform: translateZ( -100px ) rotateX( -180deg ); }
+#cubo.show-derecha { transform: translateZ( -100px ) rotateY( -90deg ); }
+#cubo.show-izquierda { transform: translateZ( -100px ) rotateY( 90deg ); }
+#cubo.show-arriba { transform: translateZ( -100px ) rotateX( -90deg ); }
+#cubo.show-debajo { transform: translateZ( -100px ) rotateX( 90deg ); }
+
+#cubo { transition: transform 0.5s; }
+
+#cubo .frente { background: hsla( 0, 0, 0, 0 ); }
+#cubo .respaldo { background: hsla( 0, 0, 0, 0 ); }
+#cubo .derecha { background: hsla( 0, 0, 0, 0 ); }
+#cubo .izquierda { background: hsla( 0, 0, 0, 0 ); }
+#cubo .arriba { background: hsla( 0, 0, 0, 0 ); }
+#cubo .debajo { background: hsla( 0, 0, 0, 0 ); }
+
+
+
+
+
+#cubo2 .frente { transform: rotateY( 0deg ) translateZ( 100px ); }
+#cubo2 .respaldo { transform: rotateX( 180deg ) translateZ( 100px ); }
+#cubo2 .derecha { transform: rotateY( 90deg ) translateZ( 100px ); }
+#cubo2 .izquierda { transform: rotateY( -90deg ) translateZ( 100px ); }
+#cubo2 .arriba { transform: rotateX( 90deg ) translateZ( 100px ); }
+#cubo2 .debajo { transform: rotateX( -90deg ) translateZ( 100px ); }
+
+#cubo2 { transform: translateZ( -100px ); }
+
+#cubo2.show-frente { transform: translateZ( -100px ) rotateY( 0deg ); }
+#cubo2.show-respaldo { transform: translateZ( -100px ) rotateX( -180deg ); }
+#cubo2.show-derecha { transform: translateZ( -100px ) rotateY( -90deg ); }
+#cubo2.show-izquierda { transform: translateZ( -100px ) rotateY( 90deg ); }
+#cubo2.show-arriba { transform: translateZ( -100px ) rotateX( -90deg ); }
+#cubo2.show-debajo { transform: translateZ( -100px ) rotateX( 90deg ); }
+
+#cubo2 { transition: transform 0.5s; }
+
+#cubo2 .frente { background: hsla( 0, 0, 0, 0 ); }
+#cubo2 .respaldo { background: hsla( 0, 0, 0, 0 ); }
+#cubo2 .derecha { background: hsla( 0, 0, 0, 0 ); }
+#cubo2 .izquierda { background: hsla( 0, 0, 0, 0 ); }
+#cubo2 .arriba { background: hsla( 0, 0, 0, 0 ); }
+#cubo2 .debajo { background: hsla( 0, 0, 0, 0 ); }
+
+
+botones
+{
+	position: center;
+}
